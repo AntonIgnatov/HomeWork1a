@@ -10,7 +10,7 @@ public class Main {
 
 		Scanner sc = new Scanner(System.in);
 
-		System.out.println("как давно кормили кота?");
+		System.out.println("РєР°Рє РґР°РІРЅРѕ РєРѕСЂРјРёР»Рё РєРѕС‚Р°? (Рє-РІРѕ С‡Р°СЃРѕРІ");
 		double t = sc.nextDouble();
 		sc.close();
 		cat1.setHung(t);
