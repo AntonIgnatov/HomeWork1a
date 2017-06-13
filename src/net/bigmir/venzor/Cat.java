@@ -66,12 +66,12 @@ public class Cat {
 	}
 
 	public void myau() {
-		System.out.println("мяу-мяу");
+		System.out.println("РјСЏСѓ-РјСЏСѓ");
 	}
 
 	public void hugry() {
 		if (this.hung >= 6) {
-			System.out.println("покормите кота");
+			System.out.println("РїРѕРєРѕСЂРјРёС‚Рµ РєРѕС‚Р°");
 			myau();
 		} else {
 			myau();
@@ -81,10 +81,11 @@ public class Cat {
 	}
 
 	public void printAbout() {
-		System.out.println("кличка кота: " + name);
-		System.out.println("порода кота: " + breed);
-		System.out.println("возраст кота: " + String.format("%.1f.", age));
-		System.out.println("вес кота: " + String.format("%.1f.", weight));
+		System.out.println("РєР»РёС‡РєР° РєРѕС‚Р°: " + name);
+		System.out.println("РїРѕСЂРѕРґР° РєРѕС‚Р°: " + breed);
+		System.out.println("С†РІРµС‚ РєРѕС‚Р°: " + color);
+		System.out.println("РІРѕР·СЂР°СЃС‚ РєРѕС‚Р°: " + String.format("%.1f.", age));
+		System.out.println("РІРµСЃ РєРѕС‚Р°: " + String.format("%.1f.", weight));
 	}
 
 }
